@@ -26,6 +26,7 @@ Colab CLI turns accelerator access into an agent-callable runtime, which can bec
 - Infographic: [[Agent GPU Runtime Kit/Agent GPU Runtime Workflow.svg]]
 - Skill draft: [[Agent GPU Runtime Kit/SKILL]]
 - Improvement loop: [[Agent GPU Runtime Kit Loop]]
+- Promotion gate: [[Agent GPU Runtime Kit/Post-Trial Promotion Decision Card]]
 
 ## Prototype brief
 A fillable packet for sending one local training/eval job to Colab, capturing cost/runtime/artifact evidence, and deciding whether to adopt the runtime path.
@@ -42,8 +43,10 @@ https://github.com/vinayclawagent-art/agent-gpu-runtime-kit
 ## Improvement backlog
 - Run one real VinClawLabs task through the packet.
 - Attach logs/screenshots/output evidence.
-- Fill a promotion decision card after the first trial.
+- [x] Add a fillable promotion decision card template before the first trial.
+- [ ] Fill the promotion decision card after real evidence exists.
 - Patch the draft skill only with observed pitfalls.
 
 ## Change log
 - 2026-06-17: Created package, prototype, infographic, skill draft, loop, and GitHub repo mirror. Template-ready, not validated.
+- 2026-06-17: Added post-trial promotion decision card; ready for the next real trial, no validation proof invented.
