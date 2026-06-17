@@ -27,6 +27,7 @@ Colab CLI turns accelerator access into an agent-callable runtime, which can bec
 - Skill draft: [[Agent GPU Runtime Kit/SKILL]]
 - Improvement loop: [[Agent GPU Runtime Kit Loop]]
 - Promotion gate: [[Agent GPU Runtime Kit/Post-Trial Promotion Decision Card]]
+- Debrief gate: [[Agent GPU Runtime Kit/Post-Trial Runtime Debrief Template]]
 
 ## Prototype brief
 A fillable packet for sending one local training/eval job to Colab, capturing cost/runtime/artifact evidence, and deciding whether to adopt the runtime path.
@@ -45,8 +46,11 @@ https://github.com/vinayclawagent-art/agent-gpu-runtime-kit
 - Attach logs/screenshots/output evidence.
 - [x] Add a fillable promotion decision card template before the first trial.
 - [ ] Fill the promotion decision card after real evidence exists.
+- [x] Add a post-trial runtime debrief template to convert future evidence into README/prototype/skill patches.
+- [ ] Complete the runtime debrief after the first real trial and promotion card.
 - Patch the draft skill only with observed pitfalls.
 
 ## Change log
 - 2026-06-17: Created package, prototype, infographic, skill draft, loop, and GitHub repo mirror. Template-ready, not validated.
 - 2026-06-17: Added post-trial promotion decision card; ready for the next real trial, no validation proof invented.
+- 2026-06-17: Added post-trial runtime debrief template; ready to turn future evidence into patch decisions.
